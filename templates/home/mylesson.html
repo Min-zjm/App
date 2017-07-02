@@ -1,0 +1,34 @@
+<ion-view view-title='我的课程'>
+	<ion-header-bar>
+ 	        <img src='../img/screen1.png' class='col-10' style='border-radius: 100%;height:100%;float: left;margin-top:0px;'>
+ 	        <div class='item-input-inset col-80'>
+ 	         	  <label class='item-input-wrapper'>
+ 	         	  	    <input type='text' placeholder="Email">
+ 	         	  </label>
+ 	        </div>
+ 	        <button class='button button-small icon ion-ios-search-strong col-10'></button>
+ 	</ion-header-bar>
+       
+       	<!-- 选项卡-->
+        <!--<ion-tabs class='tabs-icon-top tabs-color-positive'>
+        	  <ion-tab title='我的课程' href='#/home/mylesson/my' icon-on='button col col-50' icon-off='button col col-50'>
+        	  	     <ion-nav-view name='home-mylesson-my'></ion-nav-view>
+        	  </ion-tab>
+        	  <ion-tab title='收藏课程' href='#/home/mylesson/get' icon-on='button col col-50' icon-off='button col col-50'>
+        	  	     <ion-nav-view name='home-mylesson-get'></ion-nav-view>
+        	  </ion-tab>
+        <ion-tabs/> -->
+        <ion-content>
+        	<div class="center" style="margin-top:17px;">
+       	    	      <div style='text-align:center;font-size:23px;'>我的课程</div>
+       	    	      <button class='button' style='float:right;margin-top: -29px;border:none;'>编辑</button>
+       	    </div>
+       	    <div class="row">   
+	        	<a href="#/home/mylesson/my" class='button col col-50' style='border:none;'>我的课程</a>
+		               <span style='display:block ;height:50px;border:1px solid lightgray;'></span>
+		        <a href="#/home/mylesson/get" class='button col col-50' style='border:none;'>收藏课程</a>
+	        </div>
+	        <ion-nav-view></ion-nav-view>
+        
+        </ion-content>
+</ion-view>

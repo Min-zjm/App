@@ -1,0 +1,21 @@
+<ion-view view-title='登录页'>
+	 <ion-nav-view>
+            <div class='top' style='background:url(../img/regss.jpg) no-repeat;height:239px;background-size:100%;background-position-y:49%;background-position-x:86%;'><!--transition-->
+			      <img src='../img/6.jpg' style='height:60px;width:60px;border-radius:100%;margin-left:40%;float:left;opacity: initial;'/>	
+			      <div class='list list-inset' style='margin:0;float:left;width:85%;margin-left:7%;margin-top: 10px;'>
+			      	   <lable class='item item-input'>
+			      	   	      <input type='text' placeholder="用户名" ng-model='user.userName'>
+			      	   </lable>
+			      	   <lable class='item item-input'>
+			      	   	      <input type='password' placeholder="密码" ng-model='user.passWord'>
+			      	   </lable>
+			      </div>
+			</div> 
+			<div class='bottom' style='background:white;'>
+				 <button class='button button-positive' ng-click='log()' style='width:85%;margin-left:7%;margin-top: 10%;'>登录</button>
+			     <button class='button button-light' ng-click='backReg()' style='float:left;margin-top:56px;margin-left: 5%;'>注册</button>
+			     <button class='button button-light' ng-click='' style='float:right;margin-top:56px;margin-right:8%;'>忘记密码</button>
+			</div>
+	</ion-nav-view>
+</ion-view>        
+       

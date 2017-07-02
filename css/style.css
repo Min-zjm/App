@@ -1,0 +1,40 @@
+/*滚动条*/
+.scroll{
+	transform: translate3d(0px, 0px, 0px) scale(1);
+}
+/*banner图动画--滑动框*/
+.slider{      
+  	height:100%;    /*自带的*/
+}
+.slider-slide{
+	color:
+}
+.box{ 
+  height:100%; 
+}
+.blue{
+	height:200px;
+}
+img{
+	margin-top:45px;
+	height:72%;
+	width:100%;    //
+}
+
+.yellow {
+    /*background:url(../img/Photos.png) no-repeat;
+	background-size: 100% 38%;
+    background-position-y: 554px;*/
+    
+}
+.pink {
+  background-color: white;
+}
+
+/*get.html*/
+.img1{
+	background:url(../../img/li.jpg)no-repeat;
+	height:50px;
+	width:50px;
+}
+
